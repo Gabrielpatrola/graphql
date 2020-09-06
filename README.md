@@ -45,6 +45,7 @@ Para conseguir utilizar a aplicação sem nenhum problema é necessário ter:
 
 - O **<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>** instalado no computador
 - Ter em sua máquina o **<a href="https://www.npmjs.com/" target="_blank" rel="noopener">NPM</a>** ou **<a href="https://yarnpkg.com/" target="_blank" rel="noopener">Yarn</a>** para o gerenciamento dos pacotes da aplicação
+- Ter o **<a href="https://docs.mongodb.com/manual/installation/" target="_blank" rel="noopener">MongoDB</a>** instalado para servir como Banco de Dados da aplicação
 - E não menos importante, o **<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>** para clonar o repositório em seu computador
 
 ### 📝 Passo a passo
