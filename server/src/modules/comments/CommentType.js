@@ -19,5 +19,8 @@ export default new GraphQLObjectType({
     updatedAt: {
       type: GraphQLNonNull(GraphQLDateTime),
     },
+    orderBy: {
+      type: GraphQLDateTime,
+    },
   },
 })

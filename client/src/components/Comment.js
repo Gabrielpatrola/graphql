@@ -5,7 +5,7 @@ export default function Comment({ id, name, description, onClick }) {
     <div className='comment'>
       <div className='comment-content'>
         <p className='comment-name'>Nome: {name}</p>
-        <p>{description}</p>
+        <p className='comment-description'>Mensagem: {description}</p>
       </div>
       <div className='comment-action'>
         <button onClick={() => onClick(id)}>X</button>

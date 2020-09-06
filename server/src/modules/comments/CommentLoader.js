@@ -6,6 +6,11 @@ export async function saveComment(_, { input }) {
 }
 
 export async function getComments() {
-  const comments = await Comment.find()
+  const comments = await Comment.find().sort({ createdAt: -1 })
   return comments
+}
+
+export async function deleteComments(_, { id }) {
+  const del = await Comment.findByIdAndDelete(id)
+  return del
 }

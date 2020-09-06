@@ -65,7 +65,7 @@ button {
   color: #000;
   border-radius: 5px;
   padding: 12px;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .comment-content {
@@ -81,4 +81,9 @@ button {
 
 .comment .comment-name {
   font-weight: bold;
+  word-wrap: break-word;
+}
+
+.comment-description {
+  word-wrap: break-word;
 }

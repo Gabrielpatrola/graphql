@@ -28,7 +28,9 @@ export default function App() {
   const { loading, error, data, refetch } = useQuery(GET_COMMENTS)
   const [deleteComment] = useMutation(DELETE_COMMENTS)
 
-  if (error) return 'Pô, deu ruim demais.'
+  if (error) {
+    return 'Aconteceu um erro inesperado!'
+  }
 
   function handleAddComment() {
     refetch()
@@ -40,7 +42,7 @@ export default function App() {
   }
   return (
     <>
-      <h1>RocketComments</h1>
+      <h1>Simple CRUD with GraphQL</h1>
       <Form onAddComment={handleAddComment} />
       {loading ? (
         'Carregando...'
